@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "_ins",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_k",
+						"type": "uint256"
+					}
+				],
+				"name": "MiMC5Sponge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "h",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zk/MiMCSponge.sol": "Hasher"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zk/MiMCSponge.sol": {
+			"keccak256": "0x4282af99f3cdbd1943657894e287a58acf550868b1c3565d67c412247a08819e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fbf32a142f128818ce403efc8456a96e2295b055ff9770a545f22ec18b691261",
+				"dweb:/ipfs/QmdYkuwpYzZ96S2Zk6jxL6mZAoXwj6PF2iNpJTGJ3nvAFB"
+			]
+		}
+	},
+	"version": 1
+}

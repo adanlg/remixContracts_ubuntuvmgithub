@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "pastBlockTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "spin",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"telefonica/time.sol": "TimestampManp"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"telefonica/time.sol": {
+			"keccak256": "0xd785a6c672af0a2424760b5a74695aaaec6e29283da7488d64783d70d725aeb1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://239a27eae8ec001d3a932c5dbc8222ab1098dbced803a4da4908811c9364a9ae",
+				"dweb:/ipfs/QmQYQsQhYrwvLtsymkAz8crSPicmxHNHc11ydcX2vwNDtH"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Lottery",
+						"name": "_lottery",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lottery",
+				"outputs": [
+					{
+						"internalType": "contract Lottery",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/reentrant.sol": "Reto"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/reentrant.sol": {
+			"keccak256": "0xa64428e380360268a6b97e1e0eea1bc0579edc68c7e8612d3633755dbc18b5b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a2cdd06faa7e44e21df68d585245e836ff07e49d60f15a195b46b38a53bfde0",
+				"dweb:/ipfs/QmVjTSd1vknWgDwk6GQfBhxsKPJEBvv77bzjM8PvmASPJn"
+			]
+		}
+	},
+	"version": 1
+}

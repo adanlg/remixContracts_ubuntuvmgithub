@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "consumeGas",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/adsdas.sol": "GasConsumingFunction"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/adsdas.sol": {
+			"keccak256": "0x746dbdbf99a9d5143df211d52c97dff1e428d7151388f4ad353ecea99e1a30be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5af3ff2f0afc23e39220fea4cbb950e4cb1209bf5fb48ac29072cefb8292549d",
+				"dweb:/ipfs/QmQ9BkNCx3B29R3t5bLUmsCrn5taWPE12kq2o9YhuHcLg4"
+			]
+		}
+	},
+	"version": 1
+}

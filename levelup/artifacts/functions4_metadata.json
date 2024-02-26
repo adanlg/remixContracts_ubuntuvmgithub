@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_stepNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "addOil",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_stepNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "addSalt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_stepNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "addTomatoe",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/functions4.sol": "functions4"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/functions4.sol": {
+			"keccak256": "0x9bb1228e484b46193793366aea95f6f68790c827c2f8c3afe577ab84f67548bb",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://66d21e057fc6f70a081cb7a79926cfed4ba7fa5a76f552ab2c329a7e179e98ea",
+				"dweb:/ipfs/QmbLH4cwF3NoGi5owkYb1aCvuFVk4LQnmeAGAKbL3i7aRR"
+			]
+		}
+	},
+	"version": 1
+}

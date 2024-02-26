@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_flag",
+						"type": "string"
+					},
+					{
+						"internalType": "contract Numbers",
+						"name": "_n",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "execution_function",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFlag",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "n",
+				"outputs": [
+					{
+						"internalType": "contract Numbers",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/guessmynumber.sol": "Guess"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/guessmynumber.sol": {
+			"keccak256": "0xbf0714102ec6d44464609f7cfbbfab6613df096a4c10ca67d61b432d63bb002b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c247a559122b57b8e2a158672f8aaf564acc13e279c3be221af0d1558ce1cc6",
+				"dweb:/ipfs/QmQnt9a5V9uwUpobMZgxrbFuWeM8PRPbvirHEMaiV4qju1"
+			]
+		},
+		"levelup/numbers.sol": {
+			"keccak256": "0xcdae5f6c9495475486e84e00c64b850a007f7415e61061a52d9d1387317ae415",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c53fb5374f4a490e8566dd3b809a2c8f2eb1ed77719ac3d04e9c68d44cbc7117",
+				"dweb:/ipfs/QmZMUNzHHnBnQ5pEDgE8tr8NrU7vN9nMkFfTDoPDsNcEGB"
+			]
+		}
+	},
+	"version": 1
+}

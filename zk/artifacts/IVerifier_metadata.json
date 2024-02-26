@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "input",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zk/votacion.sol": "IVerifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zk/MiMCSponge.sol": {
+			"keccak256": "0x4282af99f3cdbd1943657894e287a58acf550868b1c3565d67c412247a08819e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fbf32a142f128818ce403efc8456a96e2295b055ff9770a545f22ec18b691261",
+				"dweb:/ipfs/QmdYkuwpYzZ96S2Zk6jxL6mZAoXwj6PF2iNpJTGJ3nvAFB"
+			]
+		},
+		"zk/ReentrancyGuard.sol": {
+			"keccak256": "0xc36152f7afa171bc6b38527ac9c5d67c74c8d54c4954178424fed6e62ff153e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16b5fd7f03a139632fabc5f42165f37c6a3508c0374c2d87c23b851d0a857386",
+				"dweb:/ipfs/QmSqRMUXuPaERdVbAeHR3wXWJzc9zwYaNfowYtZJkoE8rw"
+			]
+		},
+		"zk/votacion.sol": {
+			"keccak256": "0xf61d023681756b267064e584d030ddbb9d638d6d9a4af2c117cad2e87fa83a5e",
+			"license": "NONE",
+			"urls": [
+				"bzz-raw://28e4a2ae442c2601007fe73d03e515247469853f1e0af3c49813a0cec200fd1d",
+				"dweb:/ipfs/QmWVfq1eLa6WAHpApu6NVY4LLzhQq3YSHa6vdUJXHYZoVG"
+			]
+		}
+	},
+	"version": 1
+}

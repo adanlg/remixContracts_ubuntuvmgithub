@@ -1,0 +1,192 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_flag",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_hashedMessage",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_s",
+						"type": "bytes32"
+					}
+				],
+				"name": "_verifyMessage",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "blockNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_hashedMessage",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_s",
+						"type": "bytes32"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_hashedMessage",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_s",
+						"type": "bytes32"
+					}
+				],
+				"name": "extractFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFlag",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"levelup/replayme.sol": "ReplayMe"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"levelup/replayme.sol": {
+			"keccak256": "0xa77da422cf2b61828bd2050228e836e93fab0c9254c077e2c16d19e1bcb9e210",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://cfbe5a5dcdba4eb6539833f240b097ad8422ee695abd6c1acb53286450ce699d",
+				"dweb:/ipfs/QmTR92rSEjZa7L6XhG5Cdrdqxkjd4sHwNMzmYe47h9mqEP"
+			]
+		}
+	},
+	"version": 1
+}
